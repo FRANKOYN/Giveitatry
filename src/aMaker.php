@@ -37,10 +37,10 @@ while(1){
 	echo "[INFO] Creating Evony account generated via randomness".PHP_EOL;
 
 	$UID = uniqid();
-	$emailgen = "{$UID}@drwhat.net";
-	$password = "potato";
+	$emailgen = "{$UID}@joeking.info";
+	$password = "12345678";
 	$s = NEW Socket\Client($address,$port);
-	echo "[INFO] Connecting to {$address}:{$port} AKA Evony's Fun Land",PHP_EOL;
+	echo "[INFO] Connecting to {$address}:{$port} WhoRunIt",PHP_EOL;
 
 	$AMF = NEW YaBOB_AMF();
 	$amfHandshake = NEW YaBOB_Handshake();
